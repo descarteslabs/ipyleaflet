@@ -16,6 +16,7 @@ export * from './layers/MagnifyingGlass.js';
 export * from './layers/ImageOverlay.js';
 export * from './layers/VideoOverlay.js';
 export * from './layers/Velocity.js';
+export * from './layers/EsriVectorLayer.js';
 export * from './layers/Heatmap.js';
 export * from './layers/VectorLayer.js';
 export * from './layers/Path.js';

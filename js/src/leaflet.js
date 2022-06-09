@@ -15,6 +15,8 @@ require('leaflet-fullscreen');
 require('leaflet-transform');
 require('leaflet.awesome-markers');
 require('leaflet-search');
+L.esri = require('esri-leaflet');
+L.esri.Vector = require('esri-leaflet-vector');
 
 // Monkey patch GridLayer for smoother URL updates
 L.patchGridLayer = function (layer) {
