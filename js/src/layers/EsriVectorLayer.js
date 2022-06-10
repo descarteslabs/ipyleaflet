@@ -8,7 +8,7 @@ export class EsriVectorLayerModel extends layer.LeafletLayerModel {
       _view_name: 'EsriVectorLayerView',
       _model_name: 'EsriVectorLayerModel',
       
-      basemapKey: "ArcGIS:Streets",
+      basemapkey: "ArcGIS:Streets",
       apikey: ""
     };
   }
@@ -16,6 +16,6 @@ export class EsriVectorLayerModel extends layer.LeafletLayerModel {
 
 export class EsriVectorLayerView extends layer.LeafletLayerView {
   create_obj() {
-    this.obj = L.esri.Vector.vectorBasemapLayer(this.model.get("basemapKey"), this.get_options());
+    this.obj = L.esri.Vector.vectorBasemapLayer(this.model.get("basemapkey"), this.get_options());
   }
 }
